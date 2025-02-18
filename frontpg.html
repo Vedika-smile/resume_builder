@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontpg.css">
+</head>
+<body>
+    <header>
+        <h1>ATS-Friendly Resume Builder</h1>
+    </header>
+    <main>
+        <section class="template-selection">
+            <h2>Select a Template</h2>
+            <div class="templates">
+                <div class="template" onclick="selectTemplate(1)">Template 1</div>
+                <div class="template" onclick="selectTemplate(2)">Template 2</div>
+                <div class="template" onclick="selectTemplate(3)">Template 3</div>
+                <div class="template" onclick="selectTemplate(4)">Template 4</div>
+            </div>
+        </section>
+        <section class="form-section">
+            <h2>Enter Your Details</h2>
+            <form id="resume-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="experience">Experience:</label>
+                <textarea id="experience" required></textarea>
+                
+                <button type="submit">Generate Resume</button>
+            </form>
+        </section>
+    </main>
+    <script>
+        function selectTemplate(templateId) {
+            alert('Template ' + templateId + ' selected!');
+        }
+    </script>
+    <script src="frontpg.js"></script>
+
+</body>
+</html>

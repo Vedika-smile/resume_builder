@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    background: white;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background: #1d1d1d;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+}
+
+.main-content {
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-text p {
+    font-size: 16px;
+    color: #555;
+}
+
+.profile-section, .employment, .education {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.job h3 {
+    font-weight: bold;
+}
+
+.date {
+    font-style: italic;
+    color: #777;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
